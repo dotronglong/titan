@@ -1,0 +1,30 @@
+{
+    "name": "dotronglong/titan",
+    "description": "Light PHP Rest API framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Long Do",
+            "email": "me@dotronglong.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Titan\\": "src/Titan"
+        },
+        "classmap": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Titan\\Tests\\": "tests/Titan"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
